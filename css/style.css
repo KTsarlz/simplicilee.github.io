@@ -1,0 +1,62 @@
+@font-face {
+    font-family: OpenSans-CondLight;
+    src: url("../fonts/OpenSans-CondLight.ttf");
+}
+
+
+#header{
+  background: url("../images/imgheader.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center;  
+  border-bottom: 1.5px solid;
+}
+
+
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    color: #333;
+    font-family: OpenSans-CondLight;
+
+}
+
+
+
+a {
+	font-family: OpenSans-CondLight;
+	font-size: 50px;
+	color: #333;
+} 
+
+.img-center {
+    margin: 0 auto;
+    width: 300px;
+    margin-top: -15px;
+    margin-bottom: 40px;
+}
+
+@media (min-width: 768px){
+h1 {
+    font-size: 45px;
+    max-width: 400px;
+    margin: 10px auto 140px auto;
+    font-family: OpenSans-CondLight;
+    color: #333;
+    text-align: center;
+	}
+}
+
+h1 {
+	font-size: 45px;
+    max-width: 400px;
+    margin: 10px auto 140px auto;
+    font-family: OpenSans-CondLight;
+    color: #333;
+    text-align: center;
+}
+
